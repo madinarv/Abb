@@ -1,0 +1,98 @@
+body {
+   
+    font-family: sf_pro_display,sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+}
+a{
+    margin-left: 15px;
+}
+
+.container{
+    padding: 0 3rem;
+}
+
+header{
+    background-color:#F6F7F8;
+    padding: 10px 0;
+}
+header a{
+    color: grey;
+    font-size: 13px;
+    margin-right: 10px;
+}
+.header-all{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+.header-left a:last-child {
+    border: 1.5px solid #0056c1;
+    border-radius: 40px;
+    display: inline-block;
+    font-weight: 500;
+    padding: 6px 12px;
+    color: #0056c1;
+}
+.header-left a:last-child:hover {
+    background-color: #0056c1;
+    color: #fff;
+    text-decoration: none;
+    transition: .4s;
+}
+
+.header-right{
+    color: grey;
+    font-size: 13px;   
+    display: flex;
+}
+.header-right i{
+    margin-right: 10px;
+    
+}
+.header-right .search-all{
+    margin-right: 40px;
+}
+.header-right .lang{
+    margin-right: 40px;
+}
+.nav a{
+    color: grey;
+    margin-right: 10px; 
+   
+}
+.nav{
+    margin-left: 3rem;
+}
+.nav-all{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;   
+    top: 0;
+    font-size: 19px;
+    margin-right: 10px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+.nav-all .btn{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+
+}
+.nav-all .btn a { 
+    align-items: center;  
+   color: blue;    
+} 
+.nav-all .btn i{
+    color: blue; 
+    margin-right: 1rem;
+    
+}
+
+
+
